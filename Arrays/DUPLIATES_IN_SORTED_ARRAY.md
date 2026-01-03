@@ -30,7 +30,7 @@ int* i = nums.data(); === nums[0] nums.data()returns a empty pointer pointing to
 
 int* i = nums.data() + nums.size(); // rep the pointer pointing to 1 + last element
 
-int* i = nums.data() + 1 === nums[1]
+int* i =.  nums.data() + 1 === nums[1]
 return 0 to i so ==> i + 1 - nums.data()
 
 
