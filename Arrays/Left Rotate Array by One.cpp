@@ -13,7 +13,7 @@ public:
             nums[i] = nums[i+1];
 
         }
-        nums[nums.size()-1] = temp;
+        nums[nums.size()-1 ] = temp;
         
 
         

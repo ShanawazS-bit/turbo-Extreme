@@ -23,7 +23,7 @@ for vectors its vector.size()
 nums[nums.size()- 1] = last element
 
 ## Solution
-(Code    snippet here, clean and commented)
+(Code    snippet here , clean and commented)
 in .cpp
 
 ## Recode Check
