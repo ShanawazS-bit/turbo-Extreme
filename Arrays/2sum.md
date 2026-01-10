@@ -24,14 +24,6 @@ Better approach; space in this approach, we try to optimise the brute force appr
 
 ## Common Trap
 (Mistakes I made or almost made)
-for vectors its vector.size() 
-
-int* i = nums.data(); === nums[0] nums.data()returns a empty pointer pointing to first element
-
-int* i = nums.data() + nums.size(); // rep the pointer pointing to 1 + last element
-
-int* i =.  nums.data() + 1 === nums[1]
-return 0 to i so ==> i + 1 - nums.data()
 
 
 ## Solution

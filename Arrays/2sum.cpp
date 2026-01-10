@@ -33,38 +33,17 @@ public:
     }
 
     vector<int> twoSumOptimal(vector<int>& nums, int target) {
-        sort(nums.begin(), nums.end());
-
-        int i= 0;
-        int j = nums.size()-1;
-        while(i < j)
+        map <int, int> mpp;
+        int n = nums.size();
+        for (int i = 0; i < n; i++)
         {
-            if (nums[i] + nums[j] > target)
-            int currentSum = nums[i] + nums[j];
-            if (currentSum == target)    
+            int num = nums[i];
+            int moreneeded = target - num;
+            if (mpp.find(moreneeded) != mpp. i)
             {
-                return {i,j};
-            } else if (currentSum < target) {
-                 i++;
-            } else { // currentSum > target
-                j--;
+                /* code */
             }
-            if (nums[i] + nums[j] < target)
-            {
-                 i ++ ;
-
-            }
-            if (nums[i] + nums[j] == target)    
-            {
-                return {i,j};
-            }
-            
-            
             
         }
-        return {};
-
         
-
-    }
 };
