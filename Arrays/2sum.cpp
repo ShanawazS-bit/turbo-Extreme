@@ -1,5 +1,5 @@
 #include<iostream>
-
+#include<algorithm>
 #include<vector>
 using namespace std;
 
@@ -33,17 +33,21 @@ public:
     }
 
     vector<int> twoSumOptimal(vector<int>& nums, int target) {
-        map <int, int> mpp;
+        map<int,int> mpp;
         int n = nums.size();
         for (int i = 0; i < n; i++)
         {
             int num = nums[i];
             int moreneeded = target - num;
-            if (mpp.find(moreneeded) != mpp. i)
+            if (mpp.find(moreneeded) != mpp.end())
             {
-                /* code */
+                return {mpp[moreneeded], i};
+
             }
-            
+            mpp[num] = i;
+
         }
+        return {-1,-1};
+
         
 };
