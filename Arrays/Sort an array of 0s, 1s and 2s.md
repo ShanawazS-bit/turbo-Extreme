@@ -27,6 +27,9 @@ Optimal: the optimal approach consist of using Dutch flag algorithm, Dutch natio
 ## Common Trap
 (Mistakes I made or almost made)
 
+trusted that being genunine and loving others more is not 
+a solution, its an attachment problem 
+
 
 ## Solution
 (Code    snippet here , clean and commented)
